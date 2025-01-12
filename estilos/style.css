@@ -83,6 +83,10 @@ body {
     transform: scale(1.2);
 }
 
+.nav-mobile {
+    display: none;
+}
+
 /* HOME */
 .home {
     padding-top: 90px;
@@ -241,6 +245,13 @@ body {
     border-radius: 10px 10px 0 0;
 }
 
+.portifolio-textos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
 .portifolio-textos h2 {
     font-weight: 600;
     text-align: center;
@@ -310,7 +321,7 @@ body {
         grid-template-columns: repeat(4, 1fr);
     }
 
-    .icon:nth-child(1) ,
+    .icon:nth-child(1),
     .icon:nth-child(2),
     .icon:nth-child(3),
     .icon:nth-child(4) {
@@ -320,31 +331,31 @@ body {
     .fa-html5 {
         color: rgb(226, 77, 37);
     }
-    
+
     .fa-css3-alt {
         color: rgb(40, 75, 231);
     }
-    
+
     .fa-js {
         color: rgb(231, 198, 29);
     }
-    
+
     .fa-bootstrap {
         color: #7850B3;
     }
-    
+
     .fa-react {
         color: rgb(0, 216, 255);
     }
-    
+
     .fa-git-alt {
         color: rgb(223, 74, 52);
     }
-    
+
     .fa-github {
         color: darkgray;
     }
-    
+
     .fa-linkedin {
         color: rgb(1, 102, 156);
     }
@@ -373,9 +384,23 @@ body {
 
 /* Mobile */
 @media (max-width: 430px) {
-    /* Geral */ 
+
+    /* Geral */
     h2.titulo {
         font-size: 50px;
+    }
+
+    /* Header */
+    .logo {
+        width: 50px;
+    }
+
+    .nav-desktop {
+        display: none;
+    }
+
+    .nav-mobile {
+        display: none;
     }
 
     /* Home */
@@ -388,14 +413,14 @@ body {
     }
 
     .home p {
-        font-size: 20px;
-        line-height: inherit;
+        font-size: 16px;
+        line-height: 21px;
     }
 
     /* Sobre */
     .sobre p {
         font-size: 23px;
-        line-height: 32px;
+        line-height: 27px;
     }
 
     /* Habilidades */
@@ -405,21 +430,30 @@ body {
 
     /* Projetos */
 
-.cards {
-    height: 410px;
-    width: 400px;
-}
+    .cards {
+        height: 410px;
+        width: 300px;
+    }
 
-.portifolio-textos h2 {
-    font-size: 30px;
-}
+    .cards-img {
+        height: 45%;
+    }
 
-.portifolio-textos p {
-    font-size: 18px;
-}
+    .portifolio-textos h2 {
+        font-size: 25px;
+    }
 
-.botao {
-    margin-block: 10px;
-}
+    .portifolio-textos p {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    .portifolio-textos p:nth-child(4) {
+        margin-bottom: 30px;
+    }
+
+    .botao {
+        margin-block: 10px;
+    }
 
 }
