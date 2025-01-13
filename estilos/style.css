@@ -391,6 +391,14 @@ body {
     }
 
     /* Header */
+    .header > .d-flex {
+        justify-content: space-between;
+    }
+
+    .tamanho-de-tela {
+        margin-inline: 7%;
+    }
+
     .logo {
         width: 50px;
     }
@@ -399,8 +407,34 @@ body {
         display: none;
     }
 
-    .nav-mobile {
-        display: none;
+    .menu {
+        height: 40px;
+        width: 40px;
+        border: 1px solid #fff;
+
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 2px;
+    }
+
+    .menu .line {
+        height: 4px;
+        width: 100%;
+        background-color: #7850B3;
+        display: inline-block;
+        transition: .3s ease-in-out;
+    }
+
+    .menu.active .line:nth-child(1){
+        transform: rotate(45deg) translate(7px, 7px);
+    }
+
+    .menu.active .line:nth-child(2){
+        opacity: 0;
+    }
+
+    .menu.active .line:nth-child(3){
+        transform: rotate(-45deg) translate(7px, -5px);
     }
 
     /* Home */
