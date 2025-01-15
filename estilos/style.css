@@ -91,6 +91,27 @@ h2.titulo {
     display: none;
 }
 
+.midia {
+    margin-right: 20px;
+}
+
+.midia > a > .fa-brands {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.whatsapp {
+    color: rgb(77, 203, 93);
+}
+
+.linkedin {
+    color: rgb(1, 102, 156);
+}
+
+.github {
+    color: darkgray;
+}
+
 /* HOME */
 .home {
     padding-top: 90px;
@@ -124,6 +145,20 @@ h2.titulo {
     font-size: 20px;
     text-align: justify;
     line-height: 28px;
+}
+
+.cv {
+    border: 1px solid #fff;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: #664599;
+    color: #fff;
+    cursor: pointer;
+}
+
+.cv:hover {
+    background-color: #5c3d8a;
 }
 
 /* SOBRE */
@@ -446,11 +481,10 @@ h2.titulo {
         right: 27px;
     }
 
-
     .nav-mobile.active {
         display: block;
         width: 50vw;
-        height: 50vh;
+        height: 100vh;
         position: absolute;
         top: 8vh;
         right: 2px;
@@ -459,6 +493,22 @@ h2.titulo {
 
     .nav-itens {
         height: 100%;
+        display: block;
+        text-align: end;
+    }
+
+    .nav-itens>li>a:nth-child(1) {
+        margin-top: 20px;
+    }
+
+    .nav-itens>li {
+        border-bottom: 1px solid #fff;
+        width: 100%;
+    }
+
+    .nav-itens>li>a {
+        margin-bottom: 30px;
+        margin-right: 5px;
     }
 
     .nav-itens>li>a:hover {
@@ -469,6 +519,11 @@ h2.titulo {
     .nav-mobile .d-flex {
         flex-direction: column;
         align-items: end;
+    }
+
+    .nav-mobile .midias .fa-brands {
+        margin-block: 20px;
+        
     }
 
     /* Home */
