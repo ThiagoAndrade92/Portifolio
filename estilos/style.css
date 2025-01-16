@@ -114,7 +114,7 @@ h2.titulo {
 
 /* HOME */
 .home {
-    padding-top: 90px;
+    padding-top: 20%;
     height: 92vh;
 }
 
@@ -163,7 +163,7 @@ h2.titulo {
 
 /* SOBRE */
 .sobre {
-    padding-top: 90px;
+    padding-top: 20%;
     height: 92vh;
 }
 
@@ -180,7 +180,7 @@ h2.titulo {
 
 /* HABILIDADES */
 .habilidades {
-    padding-top: 90px;
+    padding-top: 10%;
     height: 92vh;
 }
 
@@ -258,7 +258,7 @@ h2.titulo {
 
 /* Projetos */
 .projetos {
-    padding-top: 90px;
+    padding-top: 20%;
     height: 92vh;
 }
 
