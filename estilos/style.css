@@ -180,7 +180,7 @@ h2.titulo {
 
 /* HABILIDADES */
 .habilidades {
-    padding-top: 10%;
+    padding-top: 20%;
     height: 92vh;
 }
 
@@ -492,7 +492,7 @@ h2.titulo {
     }
 
     .nav-itens {
-        height: 100%;
+        height: 40%;
         display: block;
         text-align: end;
     }
@@ -519,6 +519,17 @@ h2.titulo {
     .nav-mobile .d-flex {
         flex-direction: column;
         align-items: end;
+    }
+
+    .midias {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .midia {
+        display: block;
+        margin-inline: 8%;
     }
 
     .nav-mobile .midias .fa-brands {
